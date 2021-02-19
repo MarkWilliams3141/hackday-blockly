@@ -1,0 +1,20 @@
+{
+  "name": "blockly-webpack-sample",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "audit": "npm audit fix",
+    "update": "npm update",
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "blockly": "^3.20200924.4"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.1.2",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
